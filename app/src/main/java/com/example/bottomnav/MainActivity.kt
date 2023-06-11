@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        name = "Testing"
 
         val navView: BottomNavigationView = binding.navView
 
